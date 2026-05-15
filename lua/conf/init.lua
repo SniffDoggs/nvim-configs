@@ -1,7 +1,7 @@
 vim.diagnostic.config({
-  virtual_text = false, -- REMOVE the text floating on the right (very distracting)
-  signs = true,         -- KEEP the 'W' and 'E' in the gutter (minimalist alert)
-  underline = false,     -- KEEP the underline (shows exactly where the bug is)
+  virtual_text = false, -- text floating on the right
+  signs = true,         -- 'W' and 'E' for 'Warning' and 'Error'
+  underline = false,     -- lines underlining the errors
 })
 require "conf.options"
 require "conf.keymap"
