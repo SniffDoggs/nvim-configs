@@ -1,4 +1,4 @@
-#NVIM-CONFIGS
+# NVIM-CONFIGS
 
 A repo to store my neovim config files. Purely vibe-coded.
 
